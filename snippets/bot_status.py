@@ -1,4 +1,4 @@
-#To Check whether Your Telegram Bots are Active or Not
+#To Check whether Your Telegram Bots are Active or Not (pyrogram)
 #Idea from github.com/odysseusmax/bug-free-broccoli 🌝
 #You need a user session for it
 
