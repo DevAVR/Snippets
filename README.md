@@ -7,7 +7,6 @@
 
 <br />
 
----
 
 # Some Usefull and Funny codes Based on Python (Pyrogram 
 ### Just for a Entertainment 🤣
