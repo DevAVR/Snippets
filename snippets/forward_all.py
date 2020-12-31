@@ -10,7 +10,7 @@ to_channel = -1005382636286 #To Channel ID
 async for message in client.search_messages(from_channel, filter="empty"): #You can change filter value according to your need.
         try:
             await message.forward(to_channel, as_copy=True) #Use "as_copy=False" if you want to forward with tag.
-            time.sleep(3) #You can Change it according to your need.
+            asyncio.sleep(3) #You can Change it according to your need.
         except FloodWait as e:
             await asyncio.sleep(e.x)
         except:
