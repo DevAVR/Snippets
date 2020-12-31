@@ -1,6 +1,6 @@
 # Snippets
 
-[<img align="left" alt="Website" width="130px" src="https://www.python.org/static/community_logos/python-logo-inkscape.svg" />][website]
+[<img align="left" alt="Website" width="140px" src="https://www.python.org/static/community_logos/python-logo-inkscape.svg" />][website]
 [<img align="left" alt="Website" width="120px" src="https://i.imgur.com/BOgY9ai.png" />][website]
 
 <br />
