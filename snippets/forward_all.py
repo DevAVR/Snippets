@@ -5,11 +5,11 @@
 import asyncio
 from pyrogram.errors import FloodWait
 
-from = -1001312356344 #From Channel ID
-to = -1005382636286 #To Channel ID
-async for message in client.search_messages(from, filter="empty"): #You can change filter value according to your need.
+from_channel = -1001312356344 #From Channel ID
+to_channel = -1005382636286 #To Channel ID
+async for message in client.search_messages(from_channel, filter="empty"): #You can change filter value according to your need.
         try:
-            await message.forward(to, as_copy=True) #Use "as_copy=False" if you want to forward with tag.
+            await message.forward(to_channel, as_copy=True) #Use "as_copy=False" if you want to forward with tag.
             time.sleep(3) #You can Change it according to your need.
         except FloodWait as e:
             await asyncio.sleep(e.x)
