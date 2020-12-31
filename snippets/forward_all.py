@@ -1,7 +1,7 @@
 #A Simple Code to forward all messages, files... from one channel to another.
 #Use Your Secondary account for this.(Forwarding bulk messages may result you in flood wait and ban)
 
-#pyrogram v=1.0.7
+#pyrogram v<=1.0.7
 import asyncio
 from pyrogram.errors import FloodWait
 
