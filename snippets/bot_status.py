@@ -7,7 +7,7 @@ from datetime import datetime
 import pytz #Install it using `pip(3) install pytz`
 import pyrogram
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["checkstatus"]) # Reply on /checkstatus command
+@pyrogram.Client.on_message(pyrogram.filters.command(["checkstatus"])) # Reply on /checkstatus command
 async def check_status(client, message):
     first_msg = "<b>Bots Status...</b>\n\n"
     msg = await message.reply_text(first_msg, parse_mode="html")
